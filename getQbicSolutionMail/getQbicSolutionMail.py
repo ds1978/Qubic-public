@@ -39,7 +39,6 @@ with open(logfilepath, 'r') as f:
             solutionsfound_in = json_object_in.get('solutionsfound') 
         solutionsfounddate_new = last_line_split[1].strip(' ')
         solutionsfoundcount_new = last_line_split[3].strip(' ').strip(' solutions')
-        solutionsfoundcount_new = 98
         dictionary = {
             "date": last_line_split[1].strip(' '),
             "solutionsfound": solutionsfoundcount_new
