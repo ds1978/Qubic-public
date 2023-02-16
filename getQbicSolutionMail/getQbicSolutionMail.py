@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 
 hostname = socket.gethostname()
 
-with open("config.json") as config:
+with open("/opt/qiner/mailreport/config.json") as config:
     data = json.load(config)
 
 logfilename = data['other']['logfilename'] 
