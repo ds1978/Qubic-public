@@ -4,7 +4,7 @@ import smtplib, ssl
 import socket
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-basepath = /opt/qiner/mailreport
+basepath = "/opt/qiner/mailreport"
 hostname = socket.gethostname()
 
 with open(basepath +"/config.json") as config:
