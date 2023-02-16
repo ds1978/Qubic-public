@@ -1,0 +1,15 @@
+{
+    "email":{
+        "emailport":"587",  
+        "emailusername":"x@y.com",
+        "emailpassword":"mypass",
+        "emailserver":"smtp-relay.smtprelay.com",
+        "emailfromname":"qbicstat",
+        "emailsender":"report@abc.com",
+        "emailreceiver":"receiver@abc.com"
+
+    },
+    "other":{
+        "logfilename":"logexample.txt"
+    }
+}
