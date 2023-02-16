@@ -23,14 +23,14 @@ emailfromname = data['email']['emailfromname']
 emailsender = data['email']['emailsender'] 
 emailreceiver = data['email']['emailreceiver'] 
 
-with open(logfilepath, 'rb') as f:
+with open(logfilepath, 'r') as f:
     try:  # catch OSError in case of a one line file 
-        f.seek(-2, os.SEEK_END)
-        while f.read(1) != b'\n':
-            f.seek(-2, os.SEEK_CUR)
+        lines = f.readlines()
+        second_last_line = lines[-2]    
     except OSError:
-        f.seek(0)
-    last_line = f.readline().decode()
+        print('error')
+    
+    last_line = second_last_line
     last_line_split = last_line.split('|')
     if "solutions" in last_line_split[3]:
         with open(lastsolutionfilepath, 'r') as openfile:
