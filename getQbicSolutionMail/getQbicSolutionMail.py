@@ -4,15 +4,15 @@ import smtplib, ssl
 import socket
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-
+basepath = /opt/qiner/mailreport
 hostname = socket.gethostname()
 
-with open("/opt/qiner/mailreport/config.json") as config:
+with open(basepath +"/config.json") as config:
     data = json.load(config)
 
 logfilename = data['other']['logfilename'] 
 logfilepath = logfilename
-lastsolutionfilename = "lastsolution.json"
+lastsolutionfilename = basepath + "/lastsolution.json"
 lastsolutionfilepath = lastsolutionfilename
 
 emailport = data['email']['emailport']  # For SSL
