@@ -53,10 +53,10 @@ with open(logfilepath, 'r') as f:
                 outfile.close()
             # Create a secure SSL context
             emailmessage = MIMEMultipart("alternative")
-            emailmessage["Subject"] = "qbic solution sound"
+            emailmessage["Subject"] = "qbic solution found:" + hostname
             emailmessage["From"] = emailsender
             emailmessage["To"] = emailreceiver
-            emailmessagetxt = 'new solution found \nHost: ' + hostname + '\nDateDate: ' + str(solutionsfounddate_new) + "\nCount: " + str(solutionsfoundcount_new) 
+            emailmessagetxt = 'new solution found \nHost: ' + hostname + '\nDate (utc): ' + str(solutionsfounddate_new) + "\nCount: " + str(solutionsfoundcount_new) 
             
             part1 = MIMEText(emailmessagetxt, "plain")
             #part2 = MIMEText(emailmessagetxt, "html")
