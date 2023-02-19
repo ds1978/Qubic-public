@@ -4,6 +4,8 @@ import smtplib, ssl
 import socket
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+scriptversion = "1.2.1"
+scriptdate="20230219"
 basepath = "/opt/qiner/mailreport"
 hostname = socket.gethostname()
 
@@ -56,7 +58,7 @@ with open(logfilepath, 'r') as f:
             emailmessage["Subject"] = "qbic solution found:" + hostname
             emailmessage["From"] = emailsender
             emailmessage["To"] = emailreceiver
-            emailmessagetxt = 'new solution found \nHost: ' + hostname + '\nDate (utc): ' + str(solutionsfounddate_new) + "\nCount: " + str(solutionsfoundcount_new) 
+            emailmessagetxt = 'Scriptversion: ' + scriptversion + '\nHost: ' + hostname + '\nDate (utc): ' + str(solutionsfounddate_new) + "\nCount: " + str(solutionsfoundcount_new) 
             
             part1 = MIMEText(emailmessagetxt, "plain")
             #part2 = MIMEText(emailmessagetxt, "html")
