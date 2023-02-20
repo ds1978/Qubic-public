@@ -4,9 +4,10 @@ import smtplib, ssl
 import socket
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-scriptversion = "1.2.1"
-scriptdate="20230219"
-basepath = "/opt/qiner/mailreport"
+scriptversion = "1.2.2"
+scriptdate="20230220"
+basepath = "/Users/sascha/Documents/GitHub/cubic-private"
+#basepath = "/opt/qiner/mailreport"
 hostname = socket.gethostname()
 
 with open(basepath +"/config.json") as config:
@@ -41,6 +42,7 @@ with open(logfilepath, 'r') as f:
             solutionsfound_in = json_object_in.get('solutionsfound') 
         solutionsfounddate_new = last_line_split[1].strip(' ')
         solutionsfoundcount_new = last_line_split[3].strip(' ').strip(' solutions')
+        its_speed = last_line_split[2].strip(' ')
         dictionary = {
             "date": last_line_split[1].strip(' '),
             "solutionsfound": solutionsfoundcount_new
@@ -58,7 +60,7 @@ with open(logfilepath, 'r') as f:
             emailmessage["Subject"] = "qbic solution found:" + hostname
             emailmessage["From"] = emailsender
             emailmessage["To"] = emailreceiver
-            emailmessagetxt = 'Scriptversion: ' + scriptversion + '\nHost: ' + hostname + '\nDate (utc): ' + str(solutionsfounddate_new) + "\nCount: " + str(solutionsfoundcount_new) 
+            emailmessagetxt = 'Scriptversion: ' + scriptversion + '\nHost: ' + hostname + '\nDate (utc): ' + str(solutionsfounddate_new) + "\nCount: " + str(solutionsfoundcount_new)+  "\nit/s: " + str(its_speed) 
             
             part1 = MIMEText(emailmessagetxt, "plain")
             #part2 = MIMEText(emailmessagetxt, "html")
