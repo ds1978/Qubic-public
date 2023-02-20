@@ -6,8 +6,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 scriptversion = "1.2.2"
 scriptdate="20230220"
-basepath = "/Users/sascha/Documents/GitHub/cubic-private"
-#basepath = "/opt/qiner/mailreport"
+basepath = "/opt/qiner/mailreport"
 hostname = socket.gethostname()
 
 with open(basepath +"/config.json") as config:
