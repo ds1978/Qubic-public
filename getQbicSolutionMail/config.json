@@ -10,6 +10,9 @@
 
     },
     "other":{
-        "logfilename":"logexample.txt"
+        "logfilename":[
+            "logexample.txt",
+            "x2.txt"
+        ]
     }
 }
