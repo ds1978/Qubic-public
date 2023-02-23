@@ -1,2 +1,2 @@
 */2 * * * * /usr/bin/python3 /opt/qiner/mailreport/getQbicSolutionMail.py
-*/30 * * * * /usr/bin/python3 /opt/qiner/mailreport/getQbicStatus.py
+*/30 * * * * /usr/bin/python3 /opt/qiner/mailreport/getQbicStatusMail.py
