@@ -63,7 +63,7 @@ for logfilename in logfilenames:
                 # Create a secure SSL context
                 emailmessage = MIMEMultipart("alternative")
                 emailmessage["Subject"] = "qbic solution found:" + hostname
-                emailmessage["From"] = emailsender
+                emailmessage["From"] = emailfromname + " <" + emailsender +">"
                 emailmessage["To"] = emailreceiver
                 emailmessagetxt = 'Scriptversion: ' + scriptversion + '\nHost: ' + hostname + '\nDate (utc): ' + str(solutionsfounddate_new) + "\nCount: " + str(solutionsfoundcount_new)+  "\nit/s: " + str(its_speed) 
                 
