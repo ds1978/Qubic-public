@@ -1,0 +1,633 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTSZDocument>
+  <RoyalDocument>
+    <ID>6e263ede-63a5-4d0b-985b-f1e671c67fc6</ID>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <ModifiedBy>sascha</ModifiedBy>
+    <Name>qiner</Name>
+    <Created>02/24/2023 19:56:31.856</Created>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>0</PositionNr>
+    <IsExpanded>True</IsExpanded>
+    <DocumentType>Workspace</DocumentType>
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+    <CredentialPassphrase />
+    <PasswordHash />
+    <AutoMergeOption>1</AutoMergeOption>
+    <SaveOption>2</SaveOption>
+    <Description />
+    <AutoSaveOnClose>False</AutoSaveOnClose>
+    <AutoSaveAfterChange>False</AutoSaveAfterChange>
+    <ColorFromParent>False</ColorFromParent>
+    <ColorName />
+    <Color />
+  </RoyalDocument>
+  <RoyalTrash>
+    <ID>07ace15c-6162-454f-90b2-7694d795ee16</ID>
+    <Name>Trashcan</Name>
+    <Modified>02/24/2023 19:56:31.877</Modified>
+    <Created>02/24/2023 19:56:31.856</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>2</PositionNr>
+    <IsExpanded>False</IsExpanded>
+    <ParentID>6e263ede-63a5-4d0b-985b-f1e671c67fc6</ParentID>
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+    <CredentialPassphrase />
+  </RoyalTrash>
+  <RoyalFolder>
+    <ID>5d90eb20-6694-45ac-bfb8-b44549c5bd06</ID>
+    <Name>Verbindungen</Name>
+    <Modified>02/24/2023 19:56:31.877</Modified>
+    <Created>02/24/2023 19:56:31.856</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>4</PositionNr>
+    <IsExpanded>False</IsExpanded>
+    <ParentID>6e263ede-63a5-4d0b-985b-f1e671c67fc6</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+    <CredentialPassphrase />
+  </RoyalFolder>
+  <RoyalFolder>
+    <ID>bee27672-9d31-421f-a3c2-2fce8c4d9c3a</ID>
+    <Name>Anmeldeinformationen</Name>
+    <Modified>02/24/2023 19:56:31.877</Modified>
+    <Created>02/24/2023 19:56:31.871</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>6</PositionNr>
+    <IsExpanded>False</IsExpanded>
+    <ParentID>6e263ede-63a5-4d0b-985b-f1e671c67fc6</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+    <CredentialPassphrase />
+  </RoyalFolder>
+  <RoyalFolder>
+    <ID>559d2f94-1372-4dac-b06b-f202fc8589c7</ID>
+    <Name>Tasks</Name>
+    <Modified>02/24/2023 19:56:31.877</Modified>
+    <Created>02/24/2023 19:56:31.874</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>8</PositionNr>
+    <IsExpanded>False</IsExpanded>
+    <ParentID>6e263ede-63a5-4d0b-985b-f1e671c67fc6</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+    <CredentialPassphrase />
+  </RoyalFolder>
+  <RoyalFolder>
+    <ID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ID>
+    <Name>qiner Kopie</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.202</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>2</PositionNr>
+    <IsExpanded>True</IsExpanded>
+    <ParentID>559d2f94-1372-4dac-b06b-f202fc8589c7</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+    <CredentialPassphrase />
+  </RoyalFolder>
+  <RoyalKeySequenceTask>
+    <ID>bcbb624a-99f6-4a3b-9255-f02f2c01f38b</ID>
+    <Name>1. qubic create miner single part 1</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.202</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>2</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CredentialId>46ae9424-5ab2-4ef7-8fc6-32c96c502a3b</CredentialId>
+    <CredentialMode>0</CredentialMode>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>sudo su
+DEBIAN_FRONTEND=noninteractive
+mkdir /opt/qiner
+mkdir /opt/qiner/log
+cd /opt/qiner
+#apt update -y
+#apt upgrade -y
+apt install g++ -y
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>3e3814c1-08b8-40af-9b8c-0db9aa42c8d1</ID>
+    <Name>2. qiner Update</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.202</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>4</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CredentialId>46ae9424-5ab2-4ef7-8fc6-32c96c502a3b</CredentialId>
+    <CredentialMode>0</CredentialMode>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>sudo su 
+systemctl stop qubic.service
+systemctl stop qubic1.service
+systemctl stop qubic2.service
+systemctl stop qubic3.service
+systemctl stop qubic4.service
+systemctl stop qiner@qinerComp1Thread1.sh
+systemctl stop qiner@qinerComp2Thread1.sh
+
+
+cd /opt/qiner
+rm QinerLinux.cpp*
+#wget https://raw.githubusercontent.com/forci0ne/Qiner/main/QinerLinux.cpp
+wget https://raw.githubusercontent.com/ds1978/Qubic-public/main/QinerLinux.cpp
+if grep -q avx512 /proc/cpuinfo; 
+then     
+    echo avx512 found; 
+    sed -i 's/#define AVX512 0/#define AVX512 1/g' /opt/qiner/QinerLinux.cpp;
+    sed -i 's/#define AVX512 1/#define AVX512 1/g' /opt/qiner/QinerLinux.cpp;
+else        
+    echo avx512 not found; 
+    sed -i 's/#define AVX512 0/#define AVX512 0/g' /opt/qiner/QinerLinux.cpp;
+    sed -i 's/#define AVX512 1/#define AVX512 0/g' /opt/qiner/QinerLinux.cpp;
+
+fi
+
+g++ -Wall -march=native -Ofast -funroll-loops -pthread QinerLinux.cpp -o Qiner
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>cd564e6b-7ded-4ce5-9dc2-2111253d7db9</ID>
+    <Name>3. qubic create miner single part 2</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.202</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>6</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CredentialId>46ae9424-5ab2-4ef7-8fc6-32c96c502a3b</CredentialId>
+    <CredentialMode>0</CredentialMode>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>apt install g++ -y
+cd /etc/systemd/system/
+rm qine*
+rm qubi*
+touch qiner@.service
+echo "[Unit]" &gt;&gt; qiner@.service
+echo "Description=Qubics Miner" &gt;&gt; qiner@.service
+echo "" &gt;&gt; qiner@.service
+echo "[Service]" &gt;&gt; qiner@.service
+echo "User=root" &gt;&gt; qiner@.service
+echo "WorkingDirectory=/opt/qiner" &gt;&gt; qiner@.service
+echo "ExecStart=/bin/bash /opt/qiner/%i" &gt;&gt; qiner@.service
+echo "StandardOutput=append:/opt/qiner/log/%i.log" &gt;&gt; qiner@.service
+echo "StandardError=append:/opt/qiner/log/%ierror.log" &gt;&gt; qiner@.service
+echo "Restart=always" &gt;&gt; qiner@.service
+echo "" &gt;&gt; qiner@.service
+echo "[Install]" &gt;&gt; qiner@.service
+echo "WantedBy=multi-user.target" &gt;&gt; qiner@.service
+systemctl daemon-reload
+
+cd /opt/qiner
+rm qinerComp*
+touch qinerComp1Thread1.sh
+touch qinerComp1Thread2.sh
+
+echo ./Qiner 65.21.92.224 8 &gt;&gt; qinerComp1Thread1.sh
+echo ./Qiner 65.108.225.113 8 &gt;&gt; qinerComp2Thread1.sh
+
+
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>e6a148af-3dbe-4e2f-851a-d5b8a97de784</ID>
+    <Name>4.1 Start qinerComp1</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.203</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>8</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>sudo su
+cp /opt/qiner/mailreport/lastsolution_base.json /opt/qiner/mailreport/lastsolution.json
+sed -i 's/qinerComp2Thread1/qinerComp1Thread1/g' /opt/qiner/mailreport/config.json;
+rm /opt/qiner/log/qinerComp1*
+systemctl start qiner@qinerComp1Thread1.sh
+systemctl status qiner@qinerComp1Thread1.sh
+sleep 3
+top -b -n 5 -c | head -15
+
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>2a7e6721-dc11-48b1-9946-be9b96de72af</ID>
+    <Name>4.1 Stop qinerComp1 </Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.203</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>10</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>sudo su 
+systemctl stop qiner@qinerComp1Thread1.sh
+systemctl status qiner@qinerComp1Thread1.sh
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>05922206-3c08-4ce5-8105-dd05e7ff4335</ID>
+    <Name>4.1 restart qinerComp1</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.203</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>12</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>sudo su 
+systemctl stop qiner@qinerComp1Thread1.sh
+cp /opt/qiner/mailreport/lastsolution_base.json /opt/qiner/mailreport/lastsolution.json
+systemctl start qiner@qinerComp1Thread1.sh
+systemctl status qiner@qinerComp1Thread1.sh
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>681b81cd-056d-4fd2-b5a3-3ffa721df83c</ID>
+    <Name>4.2 Start qinerComp2</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.203</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>14</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>sudo su
+cp /opt/qiner/mailreport/lastsolution_base.json /opt/qiner/mailreport/lastsolution.json
+sed -i 's/qinerComp1Thread1/qinerComp2Thread1/g' /opt/qiner/mailreport/config.json;
+rm /opt/qiner/log/qinerComp2*
+systemctl start qiner@qinerComp2Thread1.sh
+systemctl status qiner@qinerComp2Thread1.sh
+sleep 3
+top -b -n 15 -c | head -15
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>7ab0a76f-a37b-4eb8-a541-7d6ec8112cdb</ID>
+    <Name>4.2 Stop qinerComp2</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.204</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>16</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>sudo su
+systemctl stop qiner@qinerComp2Thread1.sh
+systemctl status qiner@qinerComp2Thread1.sh
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>c6afea1f-f058-46bf-be38-ca31dffebe71</ID>
+    <Name>5. Found Solutions</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.204</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>18</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>awk -F "|" '{if ($4 != prev &amp;&amp; $4 like 'solutions') {print prevLine; print $0; prevLine=$0; prev=$4}}' /opt/qiner/log/log.log
+
+awk -F "|" '{if ($4 != prev &amp;&amp; $4 like 'solutions') {print prevLine; print $0; prevLine=$0; prev=$4}}' /opt/qiner/log/qinerComp1Thread1.sh.log
+
+awk -F "|" '{if ($4 != prev &amp;&amp; $4 like 'solutions') {print prevLine; print $0; prevLine=$0; prev=$4}}' /opt/qiner/log/qinerComp2Thread1.sh.log
+
+
+
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>12e0067e-7dc3-466f-9928-7db07521c847</ID>
+    <Name>99 Install emailreporting</Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.204</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>20</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CredentialId>46ae9424-5ab2-4ef7-8fc6-32c96c502a3b</CredentialId>
+    <CredentialMode>0</CredentialMode>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>sudo su
+#apt-get install postfix -y
+cd /opt/qiner/
+mkdir mailreport
+cd mailreport
+rm get*
+rm last*
+
+wget https://raw.githubusercontent.com/ds1978/Qubic-public/main/getQbicSolutionMail/getQbicSolutionMail.py
+
+wget https://raw.githubusercontent.com/ds1978/Qubic-public/main/getQbicSolutionMail/config.json
+
+wget https://raw.githubusercontent.com/ds1978/Qubic-public/main/getQbicSolutionMail/lastsolution_base.json
+
+wget https://raw.githubusercontent.com/ds1978/Qubic-public/main/getQbicSolutionMail/crontab.setting
+
+chmod 777 getQbicSolutionMail.py
+chmod 777 lastsolution.json
+
+crontab crontab.setting
+
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+  <RoyalKeySequenceTask>
+    <ID>1ec585ae-22d6-414f-b995-510c52b42d73</ID>
+    <Name>99 update emailreporting </Name>
+    <Modified>02/24/2023 20:02:23.676</Modified>
+    <Created>02/24/2023 19:57:25.205</Created>
+    <ModifiedBy>sascha</ModifiedBy>
+    <CreatedBy>sascha</CreatedBy>
+    <PositionNr>22</PositionNr>
+    <ColorFromParent>False</ColorFromParent>
+    <CredentialId>46ae9424-5ab2-4ef7-8fc6-32c96c502a3b</CredentialId>
+    <CredentialMode>0</CredentialMode>
+    <CustomImageList>{}</CustomImageList>
+    <ExecutionMode>0</ExecutionMode>
+    <Favorite>False</Favorite>
+    <KeySequence>sudo su
+cd /opt/qiner/mailreport
+rm get*
+
+
+wget https://raw.githubusercontent.com/ds1978/Qubic-public/main/getQbicSolutionMail/getQbicSolutionMail.py
+
+wget -O lastsolution_base.json  https://raw.githubusercontent.com/ds1978/Qubic-public/main/getQbicSolutionMail/lastsolution.json
+
+chmod 777 getQbicSolutionMail.py
+chmod 777 lastsolution.json
+
+</KeySequence>
+    <NoConfirmationRequired>True</NoConfirmationRequired>
+    <ShowInFavoriteTasks>False</ShowInFavoriteTasks>
+    <ParentID>f9283f6c-e65f-4c3c-bc2f-75290fc5ce8b</ParentID>
+    <ObjectSpecialUsage />
+    <CustomField11 />
+    <CustomField12 />
+    <CustomField13 />
+    <CustomField14 />
+    <CustomField15 />
+    <CustomField16 />
+    <CustomField17 />
+    <CustomField18 />
+    <CustomField19 />
+    <CustomField20 />
+    <CustomProperties />
+    <CredentialPassword />
+  </RoyalKeySequenceTask>
+</RTSZDocument>
