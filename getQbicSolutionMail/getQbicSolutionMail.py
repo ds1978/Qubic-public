@@ -1,4 +1,4 @@
-import os
+import os, fnmatch
 import shutil
 import json
 import smtplib, ssl
@@ -6,15 +6,16 @@ import socket
 import time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-scriptversion = "1.2.3"
-scriptdate="20230223"
-basepath = "/opt/qiner/mailreport"
+scriptversion = "1.2.5"
+scriptdate="20230301"
+basepath = "/opt/qiner"
 hostname = socket.gethostname()
 
 with open(basepath +"/config.json") as config:
     data = json.load(config)
 
-logfilenames = data['other']['logfilename'] 
+#logfilenames = data['other']['logfilename'] 
+logfilenames = fnmatch.filter(os.listdir(basepath + '/log'), 'qinerThread*.log')
 
 emailport = data['email']['emailport']  # For SSL
 emailusername = data['email']['emailusername'] 
@@ -26,10 +27,10 @@ emailreceiver = data['email']['emailreceiver']
 
 for logfilename in logfilenames:
     logfilefile= logfilename.split('/')[-1].replace('.sh.log','')
-    lastsolutionfilename = basepath + "/lastsolution_"+logfilefile+'.json'
+    lastsolutionfilename = basepath + "/mailreport/lastsolution_"+logfilefile+'.json'
     
     if not os.path.isfile(lastsolutionfilename):
-        shutil.copyfile(basepath +"/lastsolution_base.json", lastsolutionfilename)
+        shutil.copyfile(basepath +"/mailreport/lastsolution_base.json", lastsolutionfilename)
 
     with open(logfilename, 'r') as f:
         try:  # catch OSError in case of a one line file 
