@@ -6,7 +6,7 @@ import socket
 import time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-scriptversion = "1.2.5"
+scriptversion = "1.2.6"
 scriptdate="20230301"
 basepath = "/opt/qiner"
 hostname = socket.gethostname()
@@ -32,7 +32,7 @@ for logfilename in logfilenames:
     if not os.path.isfile(lastsolutionfilename):
         shutil.copyfile(basepath +"/mailreport/lastsolution_base.json", lastsolutionfilename)
 
-    with open(logfilename, 'r') as f:
+    with open(basepath + "/log/" + logfilename, 'r') as f:
         try:  # catch OSError in case of a one line file 
             lines = f.readlines()
             second_last_line = lines[-2]    
