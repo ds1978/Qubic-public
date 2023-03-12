@@ -6,12 +6,12 @@ import socket
 import time
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-scriptversion = "1.2.6"
+scriptversion = "1.2.7"
 scriptdate="20230301"
 basepath = "/opt/qiner"
 hostname = socket.gethostname()
 
-with open(basepath +"/config.json") as config:
+with open(basepath +"/mailreport/config.json") as config:
     data = json.load(config)
 
 #logfilenames = data['other']['logfilename'] 
