@@ -13,7 +13,7 @@ out of or in connection with the software or the use or other dealings in the so
 #define PORT 21841
 #define SOLUTION_THRESHOLD 24
 #define VERSION_A 1
-#define VERSION_B 101
+#define VERSION_B 103
 #define VERSION_C 0
 
 #if defined(_WIN32) || defined(_WIN64)
