@@ -13,7 +13,7 @@ out of or in connection with the software or the use or other dealings in the so
 #define PORT 21841
 #define SOLUTION_THRESHOLD 24
 #define VERSION_A 1
-#define VERSION_B 101
+#define VERSION_B 103
 #define VERSION_C 0
 
 #if defined(_WIN32) || defined(_WIN64)
@@ -1293,12 +1293,28 @@ void random(unsigned char* publicKey, unsigned char* nonce, unsigned char* outpu
     }
 }
 
-typedef struct
+struct RequestResponseHeader
 {
-    unsigned int size;
-    unsigned short protocol;
-    unsigned short type;
-} RequestResponseHeader;
+private:
+    unsigned char _size[3];
+
+public:
+    unsigned char protocol;
+    unsigned char dejavu[3];
+    unsigned char type;
+
+    inline unsigned int size()
+    {
+        return (*((unsigned int*)_size)) & 0xFFFFFF;
+    }
+
+    inline void setSize(unsigned int size)
+    {
+        _size[0] = (unsigned char)size;
+        _size[1] = (unsigned char)(size >> 8);
+        _size[2] = (unsigned char)(size >> 16);
+    }
+};
 
 #define REQUEST_MINER_PUBLIC_KEY 21
 
@@ -1616,7 +1632,7 @@ int main(int argc, char* argv[])
         long long prevNumberOfMiningIterations = 0;
         while (!state)
         {
-            if (EQUAL(*((__m256i*)minerPublicKey), ZERO) || !EQUAL(*((__m256i*)nonce), ZERO) || GetTickCountMs() - latestKeyTimestamp >= 300 * 1000)
+            if (EQUAL(*((__m256i*)minerPublicKey), ZERO) || !EQUAL(*((__m256i*)nonce), ZERO) || GetTickCountMs() - latestKeyTimestamp >= 60 * 1000)
             {
 				#if defined(_WIN32) || defined(_WIN64)
                 SOCKET serverSocket = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
@@ -1687,12 +1703,20 @@ int main(int argc, char* argv[])
 						
                         if (EQUAL(*((__m256i*)nonce), ZERO))
                         {
+                            // struct
+                            // {
+                            //     RequestResponseHeader header;
+                            // } packet = { { sizeof(packet), VERSION_B, REQUEST_MINER_PUBLIC_KEY } };
                             struct
                             {
                                 RequestResponseHeader header;
-                            } packet = { { sizeof(packet), VERSION_B, REQUEST_MINER_PUBLIC_KEY } };
+                            } packet;
+                            packet.header.setSize(sizeof(packet));
+                            packet.header.protocol = VERSION_B;
+                            packet.header.dejavu[2] = packet.header.dejavu[1] = packet.header.dejavu[0] = 0;
+                            packet.header.type = REQUEST_MINER_PUBLIC_KEY;
 
-                            if (sendData(serverSocket, (char*)&packet, packet.header.size))
+                            if (sendData(serverSocket, (char*)&packet, packet.header.size()))
                             {
                                 struct
                                 {
@@ -1713,10 +1737,14 @@ int main(int argc, char* argv[])
                             {
                                 RequestResponseHeader header;
                                 RespondResourceTestingSolution payload;
-                            } packet = { { sizeof(packet), VERSION_B, RESPOND_RESOURCE_TESTING_SOLUTION } };
+                            } packet;
+                            packet.header.setSize(sizeof(packet));
+                            packet.header.protocol = VERSION_B;
+                            packet.header.dejavu[2] = packet.header.dejavu[1] = packet.header.dejavu[0] = 0;
+                            packet.header.type = RESPOND_RESOURCE_TESTING_SOLUTION;
                             *((__m256i*)packet.payload.minerPublicKey) = *((__m256i*)minerPublicKey);
                             *((__m256i*)packet.payload.nonce) = *((__m256i*)nonce);
-                            if (sendData(serverSocket, (char*)&packet, packet.header.size))
+                            if (sendData(serverSocket, (char*)&packet, packet.header.size()))
                             {
                                 *((__m256i*)minerPublicKey) = ZERO;
                                 *((__m256i*)nonce) = ZERO;
